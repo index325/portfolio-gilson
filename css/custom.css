@@ -35,4 +35,7 @@
   .text-bold-underline-spaced:before {
     display: none;
   }
+  .logo-dark {
+    margin-left: 16px;
+  }
 }
