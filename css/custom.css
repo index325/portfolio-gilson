@@ -31,17 +31,42 @@
   height: 460.08px;
 }
 
-.portfolio-background-image{
+.portfolio-background-image {
+  background-image: url(../images/projects/salesforce/IsometricSalesforceLarge.png);
   background-repeat: no-repeat;
-  background-position:center right;
+  background-position: center right;
   background-size: 1400px 700px;
 }
 
+
+
+@media (max-width: 1650px) {
+  .intro-project-text {
+    background-color: rgba(220, 220, 220, 0.7);
+  }
+}
+
+@media (max-width: 992px) {
+  .lg-padding-unset {
+    padding: unset;
+  }
+}
+
 @media (max-width: 767px) {
+  .intro-project-text {
+    background-color: unset;
+  }
+  .md-padding-unset {
+    padding: unset;
+  }
   .text-bold-underline-spaced:before {
     display: none;
   }
   .logo-dark {
     margin-left: 16px;
   }
+  .portfolio-background-image {
+    background-image: none;
+  }
 }
+
