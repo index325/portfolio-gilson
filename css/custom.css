@@ -31,6 +31,12 @@
   height: 460.08px;
 }
 
+.portfolio-background-image{
+  background-repeat: no-repeat;
+  background-position:center right;
+  background-size: 1400px 700px;
+}
+
 @media (max-width: 767px) {
   .text-bold-underline-spaced:before {
     display: none;
