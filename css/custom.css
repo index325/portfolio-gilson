@@ -31,14 +31,11 @@
   height: 460.08px;
 }
 
-.portfolio-background-image {
-  background-image: url(../images/projects/salesforce/IsometricSalesforceLarge.png);
+.portfolio-background-image-salesforce {
+  background-image: url(../images/projects/salesforce/IsometricSalesforce3.png);
   background-repeat: no-repeat;
-  background-position: center right;
-  background-size: 1400px 700px;
+  background-size: cover;
 }
-
-
 
 @media (max-width: 1650px) {
   .intro-project-text {
@@ -65,7 +62,7 @@
   .logo-dark {
     margin-left: 16px;
   }
-  .portfolio-background-image {
+  .portfolio-background-image-salesforce {
     background-image: none;
   }
 }
