@@ -67,3 +67,19 @@
   }
 }
 
+header a.logo img {
+  max-height: 40px;
+}
+
+.custom-title-medium{
+  font-size: 30px;
+  line-height: 95px;
+}
+
+.salesforce-background-color{
+  background-color: #21A0DF;
+}
+
+.salesforce-background-half-color{
+  background: linear-gradient(180deg, #21A0DF 50%, #FFFFFF 50%);
+}
